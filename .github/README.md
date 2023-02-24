@@ -1,8 +1,9 @@
 
-<h1 align="center">Lissy93/Brewfile</h1>
+<h1 align="center">caiocdcs/Brewfile</h1>
 <p align="center"><i>My list of *nix packages to be installed on MacOS via Homebrew, for the ultimate dev setup</i></p>
+<p align="center"><i><a href="https://github.com/Lissy93/Brewfile">Inspired by Lissy93/Brewfile</a></i></p>
 <p align="center">
-  <a href="https://github.com/lissy93/brewfile/">
+  <a href="https://github.com/caiocdcs/brewfile/">
     <img width="120" src="https://i.ibb.co/LhhDNg7/brewfile-repo-logo.png" />
   </a>
 </p>
@@ -13,19 +14,10 @@
 To get started, just run the setup script:
 
 ```bash
-bash <(curl -s https://lissy93.github.io/Brewfile/install.sh)
+bash <(curl -s https://caiocdcs.github.io/Brewfile/install.sh)
 ```
 
-<p align="center">
-  <a href="https://lissy93.github.io/Brewfile" title="Screenshot of the guided installation script">
-    <img width="650" src="https://i.ibb.co/g63WYBF/brewfile-install-script.png" alt="Brewfile automated installation script" />
-  </a>
-</p>
-
-Alternatively, you can just download the [`Brewfile`](https://github.com/Lissy93/Brewfile/blob/master/Brewfile) to `~/.Brewfile`, make any desired changes, then run `brew bundle --global` to install the listed packages.
-
-> **Note** - **Tracking Changes** <br>If you wish to make any ammendments, it's recommended to [fork](https://github.com/Lissy93/Brewfile/fork) the repo, in order to easily keep track of your personal package list.
-> If you're running a fork of this project, be sure to replace [lissy93] with your own username!
+Alternatively, you can just download the [`Brewfile`](https://github.com/caiocdcs/Brewfile/blob/master/Brewfile) to `~/.Brewfile`, make any desired changes, then run `brew bundle --global` to install the listed packages.
 
 ---
 
@@ -61,10 +53,7 @@ The following packages will be installed, with the aim to setup a fully-featured
 <details>
 <summary>CLI Essentials</summary>
 
-- [`git`](https://git-scm.com/) - Version controll
-- [`neovim`](https://neovim.io/) - Text editor
-- [`ranger`](https://ranger.github.io/) - Directory browser
-- [`tmux`](https://github.com/tmux/tmux/wiki) - Term multiplexer
+- [`git`](https://git-scm.com/) - Version control
 
 </details>
 
@@ -78,7 +67,6 @@ The following packages will be installed, with the aim to setup a fully-featured
 - [`entr`](https://eradman.com/entrproject/) - Run command whenever file changes
 - [`duf`](https://github.com/muesli/duf) - Get info on mounted disks _(better df)_
 - [`exa`](https://github.com/ogham/exa) - Listing files with info _(better ls)_
-- [`exiftool`](https://exiftool.org/) - Reading and writing exif metadata
 - [`fdupes`](https://github.com/jbruchon/jdupes) - Duplicate file finder
 - [`fzf`](https://github.com/junegunn/fzf) - Fuzzy file finder and filtering
 - [`hyperfine`](https://github.com/sharkdp/hyperfine) - Benchmarking for arbitrary commands
@@ -91,7 +79,7 @@ The following packages will be installed, with the aim to setup a fully-featured
 - [`sd`](https://github.com/chmln/sd) - RegEx find and replace _(better sed)_
 - [`thefuck`](https://github.com/nvbn/thefuck) - Auto-correct miss-typed commands
 - [`tldr`](https://github.com/tldr-pages/tldr) - Community-maintained docs _(better man)_
-- [`tree`](https://gitlab.com/OldManProgrammer/unix-tree) - Directory listings as tree
+- [`tre`](https://github.com/dduan/tre) - Directory hierarchy (better tree)
 - [`trash-cli`](https://github.com/andreafrancia/trash-cli) - Record + restore removed files
 - [`watch`](https://gitlab.com/procps-ng/procps) - Run commands periorically
 - [`xsel`](https://github.com/kfish/xsel) - Copy paste access to X clipboard
@@ -113,34 +101,16 @@ The following packages will be installed, with the aim to setup a fully-featured
 </details>
 
 <details>
-<summary>CLI Productivity Apps</summary>
-
-- [`browsh`](https://github.com/browsh-org/browsh) - CLI web browser
-- [`buku`](https://github.com/jarun/buku) - Bookmark manager
-- [`cmus`](https://github.com/cmus/cmus) - Music browser / player
-- [`khal`](https://github.com/pimutils/khal) - Calendar client
-- [`mutt`](https://gitlab.com/muttmua/mutt) - Email client
-- [`newsboat`](https://github.com/newsboat/newsboat) - RSS / ATOM news reader
-- [`rclone`](https://github.com/rclone/rclone) - Manage cloud storage
-- [`task`](https://github.com/GothenburgBitFactory/taskwarrior) - Todo + task management
-
-</details>
-
-<details>
 <summary>CLI Dev Suits</summary>
 
 - [`httpie`](https://httpie.io/) - HTTP / API testing testing client
-- [`lazydocker`](https://github.com/jesseduffield/lazydocker) - Full Docker management app
-- [`lazygit`](https://github.com/jesseduffield/lazygit) - Full Git managemtne app
+- [`kdash`](https://kdash.cli.rs/) - Kubernetes dashboard app
 
 </details>
 
 <details>
-<summary>CLI External Sercvices</summary>
+<summary>CLI External Services</summary>
 
-- [`ngrok`](https://ngrok.com/) - Reverse proxy for sharing localhost
-- [`tmate`](https://github.com/tmate-io/tmate) - Share a terminal session via internet
-- [`asciinema`](https://asciinema.org/) - Recording + sharing terminal sessions
 - [`navi`](https://github.com/denisidoro/navi) - Browse, search, read cheat sheets
 
 </details>
@@ -148,9 +118,6 @@ The following packages will be installed, with the aim to setup a fully-featured
 <details>
 <summary>CLI Fun</summary>
 
-- [`cowsay`](https://github.com/piuccio/cowsay) - Have an ASCII cow say your message
-- [`figlet`](http://www.figlet.org/) - Output text as big ASCII art text
-- [`lolcat`](https://github.com/busyloop/lolcat) - Make console output raibow colored
 - [`neofetch`](https://github.com/dylanaraps/neofetch) - Show system data and ditstro info
 
 </details>
@@ -160,12 +127,9 @@ The following packages will be installed, with the aim to setup a fully-featured
 <details>
 <summary>Development Apps</summary>
 
-- [Android Studio](https://developer.android.com/studio/) - IDE for Android development
 - [Boop](https://github.com/IvanMathy/Boop) - Test transformation tool _(MacOS Only)_
 - [iterm2](https://iterm2.com/) - Better terminal emulator _(MacOS Only)_
 - [Postman](https://www.postman.com/) - HTTP API testing app
-- [Sourcetree](https://www.sourcetreeapp.com/) - Git visual client _(MacOS Only)_
-- [Virtual Box](https://www.virtualbox.org/) - VM management console
 - [VS Code](https://code.visualstudio.com/) - Code editor
 
 </details>
@@ -177,14 +141,9 @@ The following packages will be installed, with the aim to setup a fully-featured
 - `gcc` - GNU C++ compilers
 - `go` - Compiler for Go Lang
 - `gradle` - Build tool for Java
-- `lua` - Lua interpreter
-- `luarocks` - Package manager for Lua
-- `node` - Node.js
-- `nvm` - Switching node versions
+- `maven` - Dependency Manager for Java
 - `openjdk` - Java development kit
 - `python` - Python interpriter
-- `rust` - Rust language
-- `android-sdk` - Android software dev kit
 
 </details>
 
@@ -192,23 +151,6 @@ The following packages will be installed, with the aim to setup a fully-featured
 <summary>Development Utils</summary>
 
 - [`gh`](https://cli.github.com/) - Interact with GitHub PRs, issues, repos
-- [`scrcpy`](https://github.com/Genymobile/scrcpy) - Display and control Andrdroid devices
-- [`terminal-notifier`](https://github.com/julienXX/terminal-notifier) - Trigger Mac notifications from terminal _(MacOS Only)_
-- [`tig`](https://jonas.github.io/tig/) - Text-mode interface for git
-- [`ttygif`](https://github.com/icholy/ttygif) - Generate GIF from terminal commands + output
-
-</details>
-
-<details>
-<summary>Network and Security Testing</summary>
-
-- [`bettercap`](https://www.bettercap.org/) - Network, scanning and moniroting
-- [`nmap`](https://nmap.org/) - Port scanning
-- [`wrk`](https://github.com/giltene/wrk2) - HTTP benchmarking
-- [`burp-suite`](https://portswigger.net/burp) - Web security testing
-- [`metasploit`](https://www.metasploit.com/) - Pen testing framework
-- [`owasp-zap`](https://owasp.org/www-project-zap/) - Web app security scanner
-- [`wireshark`](https://www.wireshark.org/) - Network analyzer + packet capture
 
 </details>
 
@@ -217,32 +159,13 @@ The following packages will be installed, with the aim to setup a fully-featured
 
 - [`bcrypt`](https://bcrypt.sourceforge.net/) - Encryption utility, using blowfish
 - [`clamav`](https://www.clamav.net/) - Open source virus scanning suite
-- [`git-crypt`](https://www.agwa.name/projects/git-crypt/) - Transparent encryption for git repos
 - [`lynis`](https://cisofy.com/lynis/) - Scan system for common security issues
 - [`openssl`](https://www.openssl.org/) - Cryptography and SSL/TLS Toolkit
 - [`rkhunter`](https://rkhunter.sourceforge.net/) - Search / detect potential root kits
-- [`veracrypt`](https://www.veracrypt.fr/code/VeraCrypt/) - File and volume encryption
 
 </details>
 
 ### Desktop Applications
-
-<details>
-<summary>Creativity</summary>
-
-- [Audacity](https://www.audacityteam.org/) - Multi-track audio editor and recording
-- [Blender](https://www.blender.org/) - 3D modelling, rendering and sculpting
-- [Cura](https://ultimaker.com/software/ultimaker-cura) - 3D Printing software, for slicing models
-- [DarkTable](https://www.darktable.org/) - Organize and bulk edit photos (similar to Lightroom)
-- [Dia](https://wiki.gnome.org/Apps/Dia) - Versatile diagramming tool, useful for UML
-- [Gimp](https://www.gimp.org/) - Image and photo editing application
-- [HandBrake](https://handbrake.fr/) - For converting video from any format to a selection of modern codecs
-- [InkScape](https://inkscape.org/) - Digital drawing/ illustration
-- [OBS Studio](https://obsproject.com/) - Streaming and screencasting
-- [Shotcut](https://www.shotcut.org/) - Video editor
-- [Synfig Studio](https://www.synfig.org/) - 2D animation
-
-</details>
 
 <details>
 <summary>Media</summary>
@@ -252,7 +175,6 @@ The following packages will be installed, with the aim to setup a fully-featured
 - [Transmission](https://transmissionbt.com/) - Torrent client
 - [VLC](https://www.videolan.org/vlc/) - Media player
 - [Pandoc](https://pandoc.org/) - Universal file converter
-- [Youtube-dl](https://youtube-dl.org/) - YouTube video downloader
 
 </details>
 
@@ -260,67 +182,32 @@ The following packages will be installed, with the aim to setup a fully-featured
 <summary>Personal Applications</summary>
 
 - [1Password](https://1password.com/) - Password manager _(proprietary)_
-- [Tresorit](https://tresorit.com/) - Encrypted file backup _(proprietary)_
-- [Standard Notes](https://standardnotes.com/) - Encrypted synced notes
-- [Signal](https://www.signal.org) - Link to encrypted mobile messenger
-- [Ledger Live](https://www.ledger.com/ledger-live) - Crypto hardware wallet manager
-- [ProtonMail-Bridge](https://proton.me/mail/bridge) - Decrypt ProtonMail emails
-- [ProtonVPN](https://protonvpn.com/) - Client app for ProtonVPN
+- [Obsidian](https://obsidian.md/) - Markdown notes
 
 </details>
 
 <details>
 <summary>Browsers</summary>
 
-- [Firefox](https://www.mozilla.org/en-GB/firefox/)
-- [Chromium](https://github.com/ungoogled-software/ungoogled-chromium)
-- [Tor](https://www.torproject.org/)
+- [Google Chrome](https://www.google.com/chrome/)
 
 </details>
 
 ### MacOS Apps
 
 <details>
-<summary>MacOS Mods and Imrovments</summary>
+<summary>MacOS Mods and Improvements</summary>
 
 - `alt-tab` - Much better alt-tab window switcher
-- `anybar` - Custom programatic menubar icons
-- `copyq` - Clipboard manager _(cross platform)_
-- `espanso` - Live text expander _(cross-platform)_
-- `finicky` - Website-specific default browser
-- `hiddenbar` - Hide / show annoying menubar icons
-- `iproute2mac` - MacOS port of netstat and ifconfig
+- `copyclip` - Clipboard manager
 - `lporg` - Backup and restore launchpad layout
-- `m-cli` - All in one MacOS management CLI app
-- `mjolnir` - Util for loading Lua automations
-- `openinterminal` - Finder button, opens directory in terminal
-- `popclip` - Popup options for text on highlight
 - `raycast` - Spotlight alternative
-- `shottr` - Better screenshot utility
-- `skhd` - Hotkey daemon for macOS
+- `santa` - Binary authorization for security
 - `stats` - System resource usage in menubar
-- `yabai` - Tiling window manager
 
 </details>
 
 </details>
-
----
-
-## Bigger Picture
-
-The Brewfile is really useful to incorporate into your dotfiles, or for quickly setting up new machines.
-You can see how I am using this in [Lissy93/Dotfiles](https://github.com/Lissy93/dotfiles).
-Other package managers have similar features. For example, [here's the scripts](https://github.com/Lissy93/dotfiles/tree/master/scripts/installs) I use to manage my package list for Arch, Debian, Alpine and MacOS.
-
----
-
-## Contributing
-
-Contributions are welcome :)
-If you're new to GitHub, see the [documentation](https://docs.github.com/en/get-started/quickstart/contributing-to-projects) for a step-by-step guide on how to submit edits to projects.
-
-Changes to the Brewfile should be made up-stream, directly into [Lissy93/Dotfiles](https://github.com/lissy93/dotfiles) (in [`Brewfile`](https://github.com/Lissy93/dotfiles/blob/master/scripts/installs/Brewfile)), which will then be automatically synced to this repo.
 
 ---
 
@@ -362,22 +249,7 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 <!-- License + Copyright -->
 <p  align="center">
-  <i>© <a href="https://aliciasykes.com">Alicia Sykes</a> 2022</i><br>
   <i>Licensed under <a href="https://gist.github.com/Lissy93/143d2ee01ccc5c052a17">MIT</a></i><br>
   <a href="https://github.com/lissy93"><img src="https://i.ibb.co/4KtpYxb/octocat-clean-mini.png" /></a><br>
   <sup>Thanks for visiting :)</sup>
 </p>
-
-<!-- Dinosaur -->
-<!-- 
-                        . - ~ ~ ~ - .
-      ..     _      .-~               ~-.
-     //|     \ `..~                      `.
-    || |      }  }              /       \  \
-(\   \\ \~^..'                 |         }  \
- \`.-~  o      /       }       |        /    \
- (__          |       /        |       /      `.
-  `- - ~ ~ -._|      /_ - ~ ~ ^|      /- _      `.
-              |     /          |     /     ~-.     ~- _
-              |_____|          |_____|         ~ - . _ _~_-_
--->

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ######################################################################
-# 🍺 Lissy93/Brewfile - All-in-one install script                    #
+# 🍺 caiocdcs/Brewfile - All-in-one install script                    #
 ######################################################################
 # Sets up Homebrew, downloads Brewfile, and bundles listed packages  #
 # IMPORTANT: Before running, read through everything very carefully! #
@@ -10,7 +10,7 @@
 
 # User-specified config
 BREWFILE_LOCATION="${HOME}/.Brewfile"
-REMOTE_BREWFILE="https://raw.githubusercontent.com/Lissy93/Brewfile/HEAD/Brewfile"
+REMOTE_BREWFILE="https://raw.githubusercontent.com/caiocdcs/Brewfile/HEAD/Brewfile"
 
 # General config
 PARAMS=$* # User-specified parameters
@@ -61,7 +61,7 @@ install_apps () {
 }
 
 show_intro () {
-  echo -e "\n${QUESTION_COLOR}🍺 Lissy93/Brewfile - Installation Script${RESET}"
+  echo -e "\n${QUESTION_COLOR}🍺 caiocdcs/Brewfile - Installation Script${RESET}"
   echo -e "${INFO_COLOR}The following steps will be taken:"
   echo "- Check Homebrew is installed, prompt to download if not"
   echo "- If no Brewfile present, download from GitHub, othwesise prompt user"
@@ -130,7 +130,7 @@ fi
 # Print finishing off message
 echo -e "\n✅ ${HEADING_COLOR}Tasks completed sucesfully in $((`date +%s`-START_TIME)) seconds${RESET}"
 echo -e "\x1b[2m\n.~~~~.\n\033[0;33m\x1b[2mi====i_\n|cccc|_)\n|cccc|\n\`-==-'\n${RESET}"
-echo -e "\033[0;33m\x1b[2mThank you for using Lissy93/Brewfile${RESET}"
+echo -e "\033[0;33m\x1b[2mThank you for using caiocdcs/Brewfile${RESET}"
 unset PROMPT_TIMEOUT
 unset REPLY
 
