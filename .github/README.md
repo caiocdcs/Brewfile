@@ -173,7 +173,6 @@ The following packages will be installed, with the aim to setup a fully-featured
 - [Calibre](https://calibre-ebook.com/) - E-Book reader
 - [Spotify](https://spotify.com) - Propietary music streaming
 - [Transmission](https://transmissionbt.com/) - Torrent client
-- [VLC](https://www.videolan.org/vlc/) - Media player
 - [Pandoc](https://pandoc.org/) - Universal file converter
 
 </details>

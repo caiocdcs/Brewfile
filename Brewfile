@@ -22,6 +22,7 @@ tap 'blacktop/tap'
 tap 'jesseduffield/lazygit'
 tap 'koekeishiya/formulae'
 tap 'kdash-rs/kdash'
+tap 'derailed/k9s'
 
 #############################################################
 # Command Line                                              #
@@ -116,7 +117,6 @@ brew 'rkhunter'       # Search / detect potential root kits
 cask 'calibre'      # E-Book reader
 cask 'spotify', args: { require_sha: false } # Proprietary music streaming
 cask 'transmission' # Torrent client
-cask 'vlc', args: { require_sha: false } # Media player
 brew 'pandoc'       # Universal file converter
 
 # Personal Applications
@@ -124,7 +124,7 @@ cask '1password'      # Password manager (proprietary)
 cask 'obsidian'       # Markdown notes
 
 # Browsers
-cask 'google-chrome', args: { require_sha: false }
+cask 'chromium', args: { require_sha: false }
 
 #############################################################
 # MacOS-Specific Stuff                                      #
@@ -136,17 +136,17 @@ cask 'font-fira-code'
 cask 'font-hack'
 cask 'font-meslo-lg-nerd-font'
 
-# Mac OS Quick-Look Plugins
-cask 'qlcolorcode'    # QL for code with highlighting
-cask 'qlimagesize'    # QL for size info for images
-cask 'qlmarkdown'     # QL for markdown files
-cask 'qlprettypatch'  # QL for patch / diff files
-cask 'qlstephen'      # QL for dev text files
-cask 'qlvideo'        # QL for video formats
-cask 'quicklook-csv'  # QL for tables in CSV format
-cask 'quicklook-json', args: { require_sha: false } # QL for JSON, with trees
-cask 'quicklookapk',   args: { require_sha: false } # QL for Android APKs
-cask 'webpquicklook',  args: { require_sha: false } # QL for WebP image files
+# # Mac OS Quick-Look Plugins
+# cask 'qlcolorcode'    # QL for code with highlighting
+# cask 'qlimagesize'    # QL for size info for images
+# cask 'qlmarkdown'     # QL for markdown files
+# cask 'qlprettypatch'  # QL for patch / diff files
+# cask 'qlstephen'      # QL for dev text files
+# cask 'qlvideo'        # QL for video formats
+# cask 'quicklook-csv'  # QL for tables in CSV format
+# cask 'quicklook-json', args: { require_sha: false } # QL for JSON, with trees
+# cask 'quicklookapk',   args: { require_sha: false } # QL for Android APKs
+# cask 'webpquicklook',  args: { require_sha: false } # QL for WebP image files
 
 # Mac OS Mods and Improvements
 cask 'alt-tab'        # Much better alt-tab window switcher
@@ -172,5 +172,7 @@ brew 'awscli'
 cask 'intellij-idea'
 cask 'telegram'
 cask 'zoom'
+brew 'yq'
+brew 'k9s'
 
 # EOF
